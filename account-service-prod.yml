@@ -7,4 +7,4 @@ server:
   port:
     8763
 
-message: Hi, this message has change from prod.profile.
+message: Hi, this is a new message from prod.profile.
