@@ -1,0 +1,21 @@
+server:
+  port: 8761
+
+spring:
+  cloud:
+    config:
+      enabled: false
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+
+message: Hola, esta es la configuración por defecto.
